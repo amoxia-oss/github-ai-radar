@@ -1,0 +1,38 @@
+{
+  "maxCandidates": 90,
+  "maxResultsPerQuery": 30,
+  "minStars": 30,
+  "maxInactiveDays": 240,
+  "queries": [
+    { "name": "LLM", "q": "topic:llm stars:>100 fork:false archived:false", "sort": "stars" },
+    { "name": "Agents", "q": "topic:ai-agent stars:>50 fork:false archived:false", "sort": "stars" },
+    { "name": "Generative AI", "q": "topic:generative-ai stars:>100 fork:false archived:false", "sort": "stars" },
+    { "name": "MCP", "q": "topic:mcp stars:>30 fork:false archived:false", "sort": "stars" },
+    { "name": "RAG", "q": "topic:rag stars:>50 fork:false archived:false", "sort": "stars" },
+    { "name": "Computer Use", "q": "topic:computer-use stars:>20 fork:false archived:false", "sort": "stars" },
+    { "name": "Image", "q": "topic:text-to-image stars:>50 fork:false archived:false", "sort": "stars" },
+    { "name": "Video", "q": "topic:text-to-video stars:>20 fork:false archived:false", "sort": "stars" },
+    { "name": "New LLM", "q": "topic:llm created:>{RECENT_90} stars:>20 fork:false archived:false", "sort": "stars" },
+    { "name": "New Agents", "q": "topic:ai-agent created:>{RECENT_90} stars:>10 fork:false archived:false", "sort": "stars" },
+    { "name": "New MCP", "q": "topic:mcp created:>{RECENT_90} stars:>10 fork:false archived:false", "sort": "stars" },
+    { "name": "New GenAI", "q": "topic:generative-ai created:>{RECENT_90} stars:>20 fork:false archived:false", "sort": "stars" }
+  ],
+  "excludeNamePatterns": [
+    "^awesome[-_]",
+    "awesome$",
+    "papers?$",
+    "course",
+    "roadmap",
+    "interview",
+    "newsletter",
+    "survey",
+    "benchmark-list",
+    "reading-list"
+  ],
+  "alerts": {
+    "topN": 20,
+    "minStars7d": 250,
+    "minGrowth7dPercent": 5,
+    "rankJump": 10
+  }
+}
