@@ -1,40 +1,18 @@
 {
-  "generatedAt": "2026-09-26T21:14:58.967Z",
+  "generatedAt": "2026-09-26T21:26:37.138Z",
   "apiVersion": "2026-03-10",
   "mode": "live",
   "stats": {
     "monitored": 90,
-    "alerts": 20,
+    "alerts": 5,
     "categories": 8,
     "authenticated": true
   },
   "alerts": [
     {
-      "fullName": "farion1231/cc-switch",
-      "rank": 1,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "firecrawl/firecrawl",
-      "rank": 2,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "affaan-m/ECC",
-      "rank": 3,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
       "fullName": "rohitg00/ai-engineering-from-scratch",
       "rank": 4,
       "reasons": [
-        "TOP20_NEW",
         "STAR_SURGE"
       ]
     },
@@ -42,36 +20,13 @@
       "fullName": "hypit-ai/hypit",
       "rank": 5,
       "reasons": [
-        "TOP20_NEW",
         "STAR_SURGE"
-      ]
-    },
-    {
-      "fullName": "diegosouzapw/OmniRoute",
-      "rank": 6,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "NousResearch/hermes-agent",
-      "rank": 7,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "Graphify-Labs/graphify",
-      "rank": 8,
-      "reasons": [
-        "TOP20_NEW"
       ]
     },
     {
       "fullName": "jev-chat/jev-chat-jarvis",
       "rank": 9,
       "reasons": [
-        "TOP20_NEW",
         "STAR_SURGE"
       ]
     },
@@ -79,79 +34,14 @@
       "fullName": "bojieli/ai-agent-book",
       "rank": 10,
       "reasons": [
-        "TOP20_NEW",
         "STAR_SURGE"
-      ]
-    },
-    {
-      "fullName": "DietrichGebert/ponytail",
-      "rank": 11,
-      "reasons": [
-        "TOP20_NEW"
       ]
     },
     {
       "fullName": "Tencent/WeKnora",
       "rank": 12,
       "reasons": [
-        "TOP20_NEW",
         "STAR_SURGE"
-      ]
-    },
-    {
-      "fullName": "heygen-com/hyperframes",
-      "rank": 13,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "D4Vinci/Scrapling",
-      "rank": 14,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "JuliusBrussee/caveman",
-      "rank": 15,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "Panniantong/Agent-Reach",
-      "rank": 16,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "can1357/oh-my-pi",
-      "rank": 17,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "harry0703/MoneyPrinterTurbo",
-      "rank": 18,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "datawhalechina/hello-agents",
-      "rank": 19,
-      "reasons": [
-        "TOP20_NEW"
-      ]
-    },
-    {
-      "fullName": "browser-use/browser-use",
-      "rank": 20,
-      "reasons": [
-        "TOP20_NEW"
       ]
     }
   ],
@@ -162,9 +52,9 @@
       "owner": "farion1231",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "category": "Coding",
-      "stars": 137155,
-      "stars7d": 3568,
-      "stars30d": 7843,
+      "stars": 137156,
+      "stars7d": 3569,
+      "stars30d": 7844,
       "growth7dPercent": 2.7,
       "forks": 9338,
       "openIssues": 2893,
@@ -227,13 +117,13 @@
         1077,
         583,
         366,
-        208
+        209
       ],
       "trendScore": 91.9,
       "rank": 1,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "firecrawl/firecrawl",
@@ -241,9 +131,9 @@
       "owner": "firecrawl",
       "description": "The web data API to search, scrape, and interact at scale. 🔥",
       "category": "Agents",
-      "stars": 185087,
-      "stars7d": 2881,
-      "stars30d": 12410,
+      "stars": 185091,
+      "stars7d": 2886,
+      "stars30d": 12415,
       "growth7dPercent": 1.6,
       "forks": 9930,
       "openIssues": 648,
@@ -305,13 +195,13 @@
         468,
         462,
         442,
-        277
+        282
       ],
       "trendScore": 91.7,
       "rank": 2,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 4
     },
     {
       "fullName": "affaan-m/ECC",
@@ -319,9 +209,9 @@
       "owner": "affaan-m",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "category": "MCP",
-      "stars": 267892,
-      "stars7d": 5109,
-      "stars30d": 25348,
+      "stars": 267901,
+      "stars7d": 5118,
+      "stars30d": 25357,
       "growth7dPercent": 1.9,
       "forks": 40020,
       "openIssues": 235,
@@ -372,13 +262,13 @@
         754,
         786,
         577,
-        308
+        317
       ],
       "trendScore": 89,
       "rank": 3,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 9
     },
     {
       "fullName": "rohitg00/ai-engineering-from-scratch",
@@ -386,11 +276,11 @@
       "owner": "rohitg00",
       "description": "Learn it. Build it. Ship it for others.",
       "category": "MCP",
-      "stars": 58282,
-      "stars7d": 3298,
-      "stars30d": 8200,
+      "stars": 58291,
+      "stars7d": 3307,
+      "stars30d": 8209,
       "growth7dPercent": 6,
-      "forks": 10112,
+      "forks": 10113,
       "openIssues": 47,
       "language": "Python",
       "license": "MIT",
@@ -451,13 +341,13 @@
         418,
         1036,
         899,
-        556
+        565
       ],
       "trendScore": 88.7,
       "rank": 4,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 9
     },
     {
       "fullName": "hypit-ai/hypit",
@@ -465,9 +355,9 @@
       "owner": "hypit-ai",
       "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
       "category": "Coding",
-      "stars": 16305,
-      "stars7d": 5014,
-      "stars30d": 16300,
+      "stars": 16307,
+      "stars7d": 5016,
+      "stars30d": 16302,
       "growth7dPercent": 44.4,
       "forks": 1971,
       "openIssues": 15,
@@ -530,13 +420,13 @@
         1002,
         482,
         347,
-        212
+        214
       ],
       "trendScore": 88.6,
       "rank": 5,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 2
     },
     {
       "fullName": "diegosouzapw/OmniRoute",
@@ -544,11 +434,11 @@
       "owner": "diegosouzapw",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
       "category": "Coding",
-      "stars": 70466,
-      "stars7d": 2239,
-      "stars30d": 13750,
+      "stars": 70471,
+      "stars7d": 2244,
+      "stars30d": 13755,
       "growth7dPercent": 3.3,
-      "forks": 10011,
+      "forks": 10012,
       "openIssues": 567,
       "language": "TypeScript",
       "license": "MIT",
@@ -609,13 +499,13 @@
         328,
         322,
         299,
-        198
+        203
       ],
       "trendScore": 88.4,
       "rank": 6,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 5
     },
     {
       "fullName": "NousResearch/hermes-agent",
@@ -623,12 +513,12 @@
       "owner": "NousResearch",
       "description": "The agent that grows with you",
       "category": "Agents",
-      "stars": 249215,
-      "stars7d": 2197,
-      "stars30d": 12719,
+      "stars": 249216,
+      "stars7d": 2198,
+      "stars30d": 12720,
       "growth7dPercent": 0.9,
-      "forks": 52911,
-      "openIssues": 44112,
+      "forks": 52912,
+      "openIssues": 44119,
       "language": "Python",
       "license": "MIT",
       "createdAt": "2025-07-22T22:22:28Z",
@@ -681,13 +571,13 @@
         347,
         320,
         294,
-        198
+        199
       ],
       "trendScore": 87.6,
       "rank": 7,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "Graphify-Labs/graphify",
@@ -695,9 +585,9 @@
       "owner": "Graphify-Labs",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "category": "Coding",
-      "stars": 121658,
+      "stars": 121657,
       "stars7d": 2065,
-      "stars30d": 10445,
+      "stars30d": 10444,
       "growth7dPercent": 1.7,
       "forks": 11712,
       "openIssues": 1475,
@@ -730,7 +620,7 @@
         "tree-sitter"
       ],
       "daily30d": [
-        406,
+        405,
         303,
         403,
         380,
@@ -763,9 +653,9 @@
       ],
       "trendScore": 87.3,
       "rank": 8,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": -1
     },
     {
       "fullName": "jev-chat/jev-chat-jarvis",
@@ -804,9 +694,9 @@
       ],
       "trendScore": 87.1,
       "rank": 9,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "bojieli/ai-agent-book",
@@ -876,9 +766,9 @@
       ],
       "trendScore": 86.3,
       "rank": 10,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "DietrichGebert/ponytail",
@@ -886,9 +776,9 @@
       "owner": "DietrichGebert",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "category": "Agents",
-      "stars": 146438,
-      "stars7d": 3915,
-      "stars30d": 32632,
+      "stars": 146442,
+      "stars7d": 3919,
+      "stars30d": 32636,
       "growth7dPercent": 2.7,
       "forks": 7867,
       "openIssues": 309,
@@ -941,13 +831,13 @@
         604,
         497,
         494,
-        346
+        350
       ],
       "trendScore": 85.7,
       "rank": 11,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 4
     },
     {
       "fullName": "Tencent/WeKnora",
@@ -955,9 +845,9 @@
       "owner": "Tencent",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "category": "Agents",
-      "stars": 30317,
-      "stars7d": 2700,
-      "stars30d": 9611,
+      "stars": 30319,
+      "stars7d": 2702,
+      "stars30d": 9613,
       "growth7dPercent": 9.8,
       "forks": 4066,
       "openIssues": 526,
@@ -1020,13 +910,13 @@
         376,
         342,
         347,
-        163
+        165
       ],
       "trendScore": 84.9,
       "rank": 12,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 2
     },
     {
       "fullName": "heygen-com/hyperframes",
@@ -1034,16 +924,16 @@
       "owner": "heygen-com",
       "description": "Write HTML. Render video. Built for agents.",
       "category": "Coding",
-      "stars": 53306,
-      "stars7d": 1659,
-      "stars30d": 10572,
+      "stars": 53307,
+      "stars7d": 1660,
+      "stars30d": 10573,
       "growth7dPercent": 3.2,
       "forks": 4863,
-      "openIssues": 218,
+      "openIssues": 217,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "createdAt": "2026-03-10T01:51:06Z",
-      "pushedAt": "2026-09-26T21:09:08Z",
+      "pushedAt": "2026-09-26T21:24:03Z",
       "daysSincePush": 0,
       "url": "https://github.com/heygen-com/hyperframes",
       "homepage": "",
@@ -1090,13 +980,13 @@
         262,
         221,
         192,
-        189
+        190
       ],
       "trendScore": 83.9,
       "rank": 13,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "D4Vinci/Scrapling",
@@ -1173,9 +1063,9 @@
       ],
       "trendScore": 82.9,
       "rank": 14,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "JuliusBrussee/caveman",
@@ -1183,9 +1073,9 @@
       "owner": "JuliusBrussee",
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "category": "Coding",
-      "stars": 107945,
-      "stars7d": 1212,
-      "stars30d": 7011,
+      "stars": 107946,
+      "stars7d": 1213,
+      "stars30d": 7012,
       "growth7dPercent": 1.1,
       "forks": 6258,
       "openIssues": 139,
@@ -1238,13 +1128,13 @@
         184,
         157,
         149,
-        75
+        76
       ],
       "trendScore": 80.3,
       "rank": 15,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "Panniantong/Agent-Reach",
@@ -1252,9 +1142,9 @@
       "owner": "Panniantong",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "category": "MCP",
-      "stars": 85584,
-      "stars7d": 2105,
-      "stars30d": 9770,
+      "stars": 85585,
+      "stars7d": 2106,
+      "stars30d": 9771,
       "growth7dPercent": 2.5,
       "forks": 7523,
       "openIssues": 161,
@@ -1314,13 +1204,13 @@
         230,
         177,
         163,
-        109
+        110
       ],
       "trendScore": 78.4,
       "rank": 16,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "can1357/oh-my-pi",
@@ -1333,7 +1223,7 @@
       "stars30d": 5602,
       "growth7dPercent": 4.5,
       "forks": 3557,
-      "openIssues": 3312,
+      "openIssues": 3313,
       "language": "TypeScript",
       "license": "MIT",
       "createdAt": "2025-12-31T14:01:28Z",
@@ -1392,9 +1282,9 @@
       ],
       "trendScore": 77.7,
       "rank": 17,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "harry0703/MoneyPrinterTurbo",
@@ -1402,9 +1292,9 @@
       "owner": "harry0703",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "category": "Coding",
-      "stars": 126078,
-      "stars7d": 1422,
-      "stars30d": 8981,
+      "stars": 126082,
+      "stars7d": 1426,
+      "stars30d": 8985,
       "growth7dPercent": 1.1,
       "forks": 19663,
       "openIssues": 36,
@@ -1461,13 +1351,13 @@
         181,
         174,
         405,
-        137
+        141
       ],
       "trendScore": 75.9,
       "rank": 18,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 4
     },
     {
       "fullName": "datawhalechina/hello-agents",
@@ -1528,9 +1418,9 @@
       ],
       "trendScore": 75.9,
       "rank": 19,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "browser-use/browser-use",
@@ -1538,9 +1428,9 @@
       "owner": "browser-use",
       "description": "Agents that use the browser.",
       "category": "Agents",
-      "stars": 116401,
-      "stars7d": 1063,
-      "stars30d": 5180,
+      "stars": 116402,
+      "stars7d": 1064,
+      "stars30d": 5181,
       "growth7dPercent": 0.9,
       "forks": 12821,
       "openIssues": 516,
@@ -1590,13 +1480,13 @@
         124,
         115,
         124,
-        75
+        76
       ],
       "trendScore": 75.7,
       "rank": 20,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "TauricResearch/TradingAgents",
@@ -1604,9 +1494,9 @@
       "owner": "TauricResearch",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "category": "Agents",
-      "stars": 108764,
-      "stars7d": 1204,
-      "stars30d": 7707,
+      "stars": 108765,
+      "stars7d": 1205,
+      "stars30d": 7708,
       "growth7dPercent": 1.1,
       "forks": 20850,
       "openIssues": 79,
@@ -1654,13 +1544,13 @@
         171,
         175,
         167,
-        103
+        104
       ],
       "trendScore": 74.3,
       "rank": 21,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "headroomlabs-ai/headroom",
@@ -1737,9 +1627,9 @@
       ],
       "trendScore": 74,
       "rank": 22,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "Human-Agent-Society/reef",
@@ -1802,9 +1692,9 @@
       ],
       "trendScore": 73.6,
       "rank": 23,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "rtk-ai/rtk",
@@ -1812,16 +1702,16 @@
       "owner": "rtk-ai",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "category": "Coding",
-      "stars": 81769,
-      "stars7d": 806,
-      "stars30d": 4589,
+      "stars": 81770,
+      "stars7d": 807,
+      "stars30d": 4590,
       "growth7dPercent": 1,
       "forks": 5182,
-      "openIssues": 1598,
+      "openIssues": 1600,
       "language": "Rust",
       "license": "Apache-2.0",
       "createdAt": "2026-01-22T16:54:16Z",
-      "pushedAt": "2026-09-26T17:56:16Z",
+      "pushedAt": "2026-09-26T21:22:25Z",
       "daysSincePush": 0,
       "url": "https://github.com/rtk-ai/rtk",
       "homepage": "https://www.rtk-ai.app",
@@ -1870,13 +1760,13 @@
         134,
         94,
         80,
-        42
+        43
       ],
       "trendScore": 71.9,
       "rank": 24,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "calesthio/OpenMontage",
@@ -1884,9 +1774,9 @@
       "owner": "calesthio",
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "category": "Coding",
-      "stars": 61403,
-      "stars7d": 1216,
-      "stars30d": 8992,
+      "stars": 61404,
+      "stars7d": 1217,
+      "stars30d": 8993,
       "growth7dPercent": 2,
       "forks": 7813,
       "openIssues": 329,
@@ -1948,13 +1838,13 @@
         142,
         125,
         114,
-        94
+        95
       ],
       "trendScore": 71,
       "rank": 25,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "langgenius/dify",
@@ -1962,9 +1852,9 @@
       "owner": "langgenius",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "category": "MCP",
-      "stars": 157278,
-      "stars7d": 838,
-      "stars30d": 3877,
+      "stars": 157279,
+      "stars7d": 839,
+      "stars30d": 3878,
       "growth7dPercent": 0.5,
       "forks": 24792,
       "openIssues": 1126,
@@ -2026,13 +1916,13 @@
         120,
         123,
         98,
-        56
+        57
       ],
       "trendScore": 70.5,
       "rank": 26,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "hugohe3/ppt-master",
@@ -2099,9 +1989,9 @@
       ],
       "trendScore": 69.3,
       "rank": 27,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "career-ops-hq/career-ops",
@@ -2109,9 +1999,9 @@
       "owner": "career-ops-hq",
       "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
       "category": "Coding",
-      "stars": 72871,
-      "stars7d": 735,
-      "stars30d": 4181,
+      "stars": 72872,
+      "stars7d": 736,
+      "stars30d": 4182,
       "growth7dPercent": 1,
       "forks": 13694,
       "openIssues": 468,
@@ -2174,13 +2064,13 @@
         105,
         104,
         197,
-        41
+        42
       ],
       "trendScore": 69.3,
       "rank": 28,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "OpenHands/OpenHands",
@@ -2188,9 +2078,9 @@
       "owner": "OpenHands",
       "description": "🙌 OpenHands: AI-Driven Development",
       "category": "LLM",
-      "stars": 89225,
-      "stars7d": 703,
-      "stars30d": 4081,
+      "stars": 89226,
+      "stars7d": 704,
+      "stars30d": 4082,
       "growth7dPercent": 0.8,
       "forks": 11753,
       "openIssues": 853,
@@ -2242,13 +2132,13 @@
         101,
         104,
         67,
-        56
+        57
       ],
       "trendScore": 68.8,
       "rank": 29,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "n8n-io/n8n",
@@ -2256,9 +2146,9 @@
       "owner": "n8n-io",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "category": "MCP",
-      "stars": 206045,
-      "stars7d": 761,
-      "stars30d": 4010,
+      "stars": 206047,
+      "stars7d": 763,
+      "stars30d": 4012,
       "growth7dPercent": 0.4,
       "forks": 60895,
       "openIssues": 1106,
@@ -2321,13 +2211,13 @@
         95,
         93,
         127,
-        56
+        58
       ],
       "trendScore": 68.2,
       "rank": 30,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 2
     },
     {
       "fullName": "open-webui/open-webui",
@@ -2335,9 +2225,9 @@
       "owner": "open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "category": "MCP",
-      "stars": 153247,
-      "stars7d": 748,
-      "stars30d": 3418,
+      "stars": 153250,
+      "stars7d": 751,
+      "stars30d": 3421,
       "growth7dPercent": 0.5,
       "forks": 22423,
       "openIssues": 320,
@@ -2395,13 +2285,13 @@
         104,
         152,
         110,
-        53
+        56
       ],
       "trendScore": 67.9,
       "rank": 31,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 3
     },
     {
       "fullName": "virgiliojr94/book-to-skill",
@@ -2409,9 +2299,9 @@
       "owner": "virgiliojr94",
       "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "category": "Agents",
-      "stars": 32568,
-      "stars7d": 1160,
-      "stars30d": 6288,
+      "stars": 32569,
+      "stars7d": 1161,
+      "stars30d": 6289,
       "growth7dPercent": 3.7,
       "forks": 3394,
       "openIssues": 23,
@@ -2467,13 +2357,13 @@
         161,
         134,
         135,
-        111
+        112
       ],
       "trendScore": 67.3,
       "rank": 32,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "thedotmack/claude-mem",
@@ -2481,9 +2371,9 @@
       "owner": "thedotmack",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "category": "Coding",
-      "stars": 94737,
-      "stars7d": 522,
-      "stars30d": 2734,
+      "stars": 94738,
+      "stars7d": 523,
+      "stars30d": 2735,
       "growth7dPercent": 0.6,
       "forks": 8379,
       "openIssues": 307,
@@ -2546,13 +2436,13 @@
         77,
         87,
         73,
-        40
+        41
       ],
       "trendScore": 63.4,
       "rank": 33,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "vllm-project/vllm",
@@ -2629,9 +2519,9 @@
       ],
       "trendScore": 63.3,
       "rank": 34,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "asgeirtj/system_prompts_leaks",
@@ -2639,11 +2529,11 @@
       "owner": "asgeirtj",
       "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
       "category": "Agents",
-      "stars": 68401,
-      "stars7d": 722,
-      "stars30d": 4924,
+      "stars": 68400,
+      "stars7d": 721,
+      "stars30d": 4923,
       "growth7dPercent": 1.1,
-      "forks": 11113,
+      "forks": 11110,
       "openIssues": 56,
       "language": "JavaScript",
       "license": "CC0-1.0",
@@ -2702,15 +2592,15 @@
         136,
         81,
         88,
-        126,
+        125,
         85,
         36
       ],
       "trendScore": 62.2,
       "rank": 35,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": -1
     },
     {
       "fullName": "ollama/ollama",
@@ -2782,9 +2672,9 @@
       ],
       "trendScore": 60.9,
       "rank": 36,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "lyogavin/airllm",
@@ -2854,9 +2744,9 @@
       ],
       "trendScore": 58.9,
       "rank": 37,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "koala73/worldmonitor",
@@ -2864,9 +2754,9 @@
       "owner": "koala73",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "category": "MCP",
-      "stars": 87421,
-      "stars7d": 432,
-      "stars30d": 3056,
+      "stars": 87422,
+      "stars7d": 433,
+      "stars30d": 3057,
       "growth7dPercent": 0.5,
       "forks": 13325,
       "openIssues": 348,
@@ -2921,13 +2811,13 @@
         60,
         55,
         55,
-        30
+        31
       ],
       "trendScore": 58.8,
       "rank": 38,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "unclecode/crawl4ai",
@@ -2999,9 +2889,9 @@
       ],
       "trendScore": 57.6,
       "rank": 39,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "unslothai/unsloth",
@@ -3078,9 +2968,9 @@
       ],
       "trendScore": 56.6,
       "rank": 40,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "langchain-ai/langchain",
@@ -3157,9 +3047,9 @@
       ],
       "trendScore": 56.3,
       "rank": 41,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "HKUDS/Vibe-Trading",
@@ -3226,9 +3116,9 @@
       ],
       "trendScore": 55.7,
       "rank": 42,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "f/prompts.chat",
@@ -3236,9 +3126,9 @@
       "owner": "f",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
       "category": "LLM",
-      "stars": 171327,
-      "stars7d": 617,
-      "stars30d": 3574,
+      "stars": 171330,
+      "stars7d": 620,
+      "stars30d": 3577,
       "growth7dPercent": 0.4,
       "forks": 21998,
       "openIssues": 82,
@@ -3299,13 +3189,13 @@
         86,
         79,
         94,
-        45
+        48
       ],
       "trendScore": 55.3,
       "rank": 43,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 3
     },
     {
       "fullName": "microsoft/ai-agents-for-beginners",
@@ -3373,9 +3263,9 @@
       ],
       "trendScore": 55.1,
       "rank": 44,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "microsoft/generative-ai-for-beginners",
@@ -3383,9 +3273,9 @@
       "owner": "microsoft",
       "description": "21 Lessons, Get Started Building with Generative AI ",
       "category": "LLM",
-      "stars": 120609,
-      "stars7d": 552,
-      "stars30d": 2121,
+      "stars": 120610,
+      "stars7d": 553,
+      "stars30d": 2122,
       "growth7dPercent": 0.5,
       "forks": 63441,
       "openIssues": 10,
@@ -3442,13 +3332,13 @@
         73,
         111,
         75,
-        45
+        46
       ],
       "trendScore": 54.1,
       "rank": 45,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "HKUDS/DeepTutor",
@@ -3514,9 +3404,9 @@
       ],
       "trendScore": 51.3,
       "rank": 46,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "sickn33/agentic-awesome-skills",
@@ -3593,9 +3483,9 @@
       ],
       "trendScore": 50.6,
       "rank": 47,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "langchain-ai/langgraph",
@@ -3670,9 +3560,9 @@
       ],
       "trendScore": 50.6,
       "rank": 48,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "ahujasid/mcp-for-blender",
@@ -3740,9 +3630,9 @@
       ],
       "trendScore": 50.4,
       "rank": 49,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "infiniflow/ragflow",
@@ -3814,9 +3704,9 @@
       ],
       "trendScore": 49.9,
       "rank": 50,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "shareAI-lab/learn-claude-code",
@@ -3883,9 +3773,9 @@
       ],
       "trendScore": 49.7,
       "rank": 51,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "bytedance/deer-flow",
@@ -3960,9 +3850,9 @@
       ],
       "trendScore": 48.6,
       "rank": 52,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "huggingface/transformers",
@@ -4038,9 +3928,9 @@
       ],
       "trendScore": 47.1,
       "rank": 53,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "mem0ai/mem0",
@@ -4053,7 +3943,7 @@
       "stars30d": 1946,
       "growth7dPercent": 0.6,
       "forks": 7763,
-      "openIssues": 748,
+      "openIssues": 751,
       "language": "Python",
       "license": "Apache-2.0",
       "createdAt": "2023-06-20T08:58:36Z",
@@ -4111,9 +4001,9 @@
       ],
       "trendScore": 46.7,
       "rank": 54,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "PaddlePaddle/PaddleOCR",
@@ -4183,9 +4073,9 @@
       ],
       "trendScore": 45.8,
       "rank": 55,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "rasbt/LLMs-from-scratch",
@@ -4261,9 +4151,9 @@
       ],
       "trendScore": 45.6,
       "rank": 56,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "Mintplex-Labs/anything-llm",
@@ -4271,9 +4161,9 @@
       "owner": "Mintplex-Labs",
       "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
       "category": "Agents",
-      "stars": 66496,
-      "stars7d": 302,
-      "stars30d": 1313,
+      "stars": 66497,
+      "stars7d": 303,
+      "stars30d": 1314,
       "growth7dPercent": 0.5,
       "forks": 7408,
       "openIssues": 318,
@@ -4331,13 +4221,13 @@
         48,
         56,
         41,
-        21
+        22
       ],
       "trendScore": 45,
       "rank": 57,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "ChromeDevTools/chrome-devtools-mcp",
@@ -4349,7 +4239,7 @@
       "stars7d": 323,
       "stars30d": 2933,
       "growth7dPercent": 0.6,
-      "forks": 4898,
+      "forks": 4900,
       "openIssues": 116,
       "language": "TypeScript",
       "license": "Apache-2.0",
@@ -4402,9 +4292,9 @@
       ],
       "trendScore": 44.4,
       "rank": 58,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "langflow-ai/langflow",
@@ -4412,9 +4302,9 @@
       "owner": "langflow-ai",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "category": "Other AI",
-      "stars": 155277,
-      "stars7d": 294,
-      "stars30d": 1750,
+      "stars": 155278,
+      "stars7d": 295,
+      "stars30d": 1751,
       "growth7dPercent": 0.2,
       "forks": 10149,
       "openIssues": 1189,
@@ -4463,13 +4353,13 @@
         43,
         37,
         44,
-        25
+        26
       ],
       "trendScore": 43.2,
       "rank": 59,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "ZhuLinsen/daily_stock_analysis",
@@ -4533,9 +4423,9 @@
       ],
       "trendScore": 42.8,
       "rank": 60,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "upstash/context7",
@@ -4543,9 +4433,9 @@
       "owner": "upstash",
       "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
       "category": "Coding",
-      "stars": 62451,
-      "stars7d": 266,
-      "stars30d": 1276,
+      "stars": 62452,
+      "stars7d": 267,
+      "stars30d": 1277,
       "growth7dPercent": 0.4,
       "forks": 3032,
       "openIssues": 69,
@@ -4592,13 +4482,13 @@
         38,
         38,
         34,
-        20
+        21
       ],
       "trendScore": 41.1,
       "rank": 61,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "HKUDS/nanobot",
@@ -4675,9 +4565,9 @@
       ],
       "trendScore": 40.6,
       "rank": 62,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "lobehub/lobehub",
@@ -4752,9 +4642,9 @@
       ],
       "trendScore": 38.6,
       "rank": 63,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "esengine/DeepSeek-Reasonix",
@@ -4767,11 +4657,11 @@
       "stars30d": 1039,
       "growth7dPercent": 0.6,
       "forks": 2420,
-      "openIssues": 293,
+      "openIssues": 290,
       "language": "Go",
       "license": "MIT",
       "createdAt": "2026-04-21T08:27:02Z",
-      "pushedAt": "2026-09-26T21:01:24Z",
+      "pushedAt": "2026-09-26T21:21:34Z",
       "daysSincePush": 0,
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "homepage": "http://reasonix.io/",
@@ -4829,9 +4719,9 @@
       ],
       "trendScore": 37.6,
       "rank": 64,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "CherryHQ/cherry-studio",
@@ -4844,11 +4734,11 @@
       "stars30d": 1260,
       "growth7dPercent": 0.4,
       "forks": 5012,
-      "openIssues": 1666,
+      "openIssues": 1664,
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "createdAt": "2024-05-24T01:56:26Z",
-      "pushedAt": "2026-09-26T21:10:33Z",
+      "pushedAt": "2026-09-26T21:14:50Z",
       "daysSincePush": 0,
       "url": "https://github.com/CherryHQ/cherry-studio",
       "homepage": "https://cherryai.com",
@@ -4897,9 +4787,9 @@
       ],
       "trendScore": 36.8,
       "rank": 65,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "aaif-goose/goose",
@@ -4960,9 +4850,9 @@
       ],
       "trendScore": 35.2,
       "rank": 66,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
@@ -4970,9 +4860,9 @@
       "owner": "Significant-Gravitas",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "category": "Coding",
-      "stars": 187575,
-      "stars7d": 186,
-      "stars30d": 913,
+      "stars": 187576,
+      "stars7d": 187,
+      "stars30d": 914,
       "growth7dPercent": 0.1,
       "forks": 45989,
       "openIssues": 528,
@@ -5026,13 +4916,13 @@
         23,
         38,
         32,
-        12
+        13
       ],
       "trendScore": 34.4,
       "rank": 67,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "agentscope-ai/QwenPaw",
@@ -5040,7 +4930,7 @@
       "owner": "agentscope-ai",
       "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
       "category": "MCP",
-      "stars": 35276,
+      "stars": 35275,
       "stars7d": 233,
       "stars30d": 1337,
       "growth7dPercent": 0.7,
@@ -5105,9 +4995,9 @@
       ],
       "trendScore": 33.6,
       "rank": 68,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": -1
     },
     {
       "fullName": "patchy631/ai-engineering-hub",
@@ -5170,9 +5060,9 @@
       ],
       "trendScore": 32.5,
       "rank": 69,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "CopilotKit/CopilotKit",
@@ -5249,9 +5139,9 @@
       ],
       "trendScore": 30.6,
       "rank": 70,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "siyuan-note/siyuan",
@@ -5317,9 +5207,9 @@
       ],
       "trendScore": 27.8,
       "rank": 71,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "Snailclimb/JavaGuide",
@@ -5327,9 +5217,9 @@
       "owner": "Snailclimb",
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "category": "Coding",
-      "stars": 158893,
-      "stars7d": 222,
-      "stars30d": 998,
+      "stars": 158894,
+      "stars7d": 223,
+      "stars30d": 999,
       "growth7dPercent": 0.1,
       "forks": 46144,
       "openIssues": 20,
@@ -5385,13 +5275,13 @@
         34,
         24,
         16,
-        20
+        21
       ],
       "trendScore": 27.5,
       "rank": 72,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "Gitlawb/openclaude",
@@ -5453,9 +5343,9 @@
       ],
       "trendScore": 27.3,
       "rank": 73,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "HKUDS/LightRAG",
@@ -5523,9 +5413,9 @@
       ],
       "trendScore": 26.6,
       "rank": 74,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "mudler/LocalAI",
@@ -5600,9 +5490,9 @@
       ],
       "trendScore": 26,
       "rank": 75,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "MemPalace/mempalace",
@@ -5665,9 +5555,9 @@
       ],
       "trendScore": 25.5,
       "rank": 76,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "sansan0/TrendRadar",
@@ -5740,9 +5630,9 @@
       ],
       "trendScore": 23.7,
       "rank": 77,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "run-llama/llama_index",
@@ -5754,7 +5644,7 @@
       "stars7d": 104,
       "stars30d": 494,
       "growth7dPercent": 0.2,
-      "forks": 8222,
+      "forks": 8223,
       "openIssues": 873,
       "language": "Python",
       "license": "MIT",
@@ -5809,9 +5699,9 @@
       ],
       "trendScore": 23.2,
       "rank": 78,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "zhayujie/CowAgent",
@@ -5884,9 +5774,9 @@
       ],
       "trendScore": 22.2,
       "rank": 79,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "hiyouga/LlamaFactory",
@@ -5894,9 +5784,9 @@
       "owner": "hiyouga",
       "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
       "category": "LLM",
-      "stars": 75024,
-      "stars7d": 151,
-      "stars30d": 709,
+      "stars": 75025,
+      "stars7d": 152,
+      "stars30d": 710,
       "growth7dPercent": 0.2,
       "forks": 9190,
       "openIssues": 1158,
@@ -5959,13 +5849,13 @@
         19,
         13,
         14,
-        13
+        14
       ],
       "trendScore": 21.1,
       "rank": 80,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "milvus-io/milvus",
@@ -6040,9 +5930,9 @@
       ],
       "trendScore": 21,
       "rank": 81,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "feder-cr/invisible_playwright_mcp",
@@ -6119,9 +6009,9 @@
       ],
       "trendScore": 18.8,
       "rank": 82,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "googleworkspace/cli",
@@ -6194,9 +6084,9 @@
       ],
       "trendScore": 18.7,
       "rank": 83,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "Hmbown/Codewhale",
@@ -6264,9 +6154,9 @@
       ],
       "trendScore": 18.4,
       "rank": 84,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "netdata/netdata",
@@ -6343,9 +6233,9 @@
       ],
       "trendScore": 18,
       "rank": 85,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "VectifyAI/PageIndex",
@@ -6353,9 +6243,9 @@
       "owner": "VectifyAI",
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "category": "Agents",
-      "stars": 35862,
-      "stars7d": 114,
-      "stars30d": 585,
+      "stars": 35863,
+      "stars7d": 115,
+      "stars30d": 586,
       "growth7dPercent": 0.3,
       "forks": 3159,
       "openIssues": 107,
@@ -6410,13 +6300,13 @@
         30,
         12,
         11,
-        7
+        8
       ],
       "trendScore": 17.8,
       "rank": 86,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 1
     },
     {
       "fullName": "jeecgboot/JeecgBoot",
@@ -6493,9 +6383,9 @@
       ],
       "trendScore": 12.4,
       "rank": 87,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "bytedance/UI-TARS-desktop",
@@ -6566,9 +6456,9 @@
       ],
       "trendScore": 11.9,
       "rank": 88,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "thedaviddias/Front-End-Checklist",
@@ -6640,9 +6530,9 @@
       ],
       "trendScore": 9.9,
       "rank": 89,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     },
     {
       "fullName": "microsoft/graphrag",
@@ -6706,9 +6596,9 @@
       ],
       "trendScore": 9.8,
       "rank": 90,
-      "rankChange": null,
-      "newEntry": true,
-      "starsChangeSinceLastRun": null
+      "rankChange": 0,
+      "newEntry": false,
+      "starsChangeSinceLastRun": 0
     }
   ]
 }
