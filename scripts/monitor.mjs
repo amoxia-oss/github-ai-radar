@@ -180,10 +180,11 @@ function makeAlerts(ranked, previous) {
   });
 }
 
-async function notifyChatwork(ranked, alerts) {
-  const cwToken = process.env.CHATWORK_API_TOKEN;
-  const roomId = process.env.CHATWORK_ROOM_ID;
-  if (!cwToken || !roomId || !alerts.length) return;
+// Slack #通知_情報収集 へ投稿する（2026-10-31 Chatworkから移行）
+async function notifySlack(ranked, alerts) {
+  const slackToken = process.env.SLACK_BOT_TOKEN;
+  const channel = process.env.SLACK_CHANNEL_ID || 'C0CC44W9T7X';
+  if (!slackToken || !alerts.length) return;
   const alertNames = new Set(alerts.map((a) => a.fullName));
   const lines = ranked.filter((r) => alertNames.has(r.fullName)).slice(0, 8).map((r) => {
     const growth = r.stars7d == null ? '7d n/a' : `+${r.stars7d.toLocaleString()}★ / 7d`;
@@ -191,13 +192,14 @@ async function notifyChatwork(ranked, alerts) {
     return `#${r.rank} ${rankMove} ${r.fullName} — ${growth} — score ${r.trendScore}`;
   });
   const dashboard = process.env.RADAR_URL ? `\n${process.env.RADAR_URL}` : '';
-  const body = `[info][title]GitHub AI Radar: 急上昇を検知[/title]${lines.join('\n')}${dashboard}[/info]`;
-  const response = await fetch(`https://api.chatwork.com/v2/rooms/${roomId}/messages`, {
+  const text = `*GitHub AI Radar: 急上昇を検知*\n${lines.join('\n')}${dashboard}`;
+  const response = await fetch('https://slack.com/api/chat.postMessage', {
     method: 'POST',
-    headers: { 'X-ChatWorkToken': cwToken, 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({ body })
+    headers: { Authorization: `Bearer ${slackToken}`, 'Content-Type': 'application/json; charset=utf-8' },
+    body: JSON.stringify({ channel, text, unfurl_links: false })
   });
-  if (!response.ok) throw new Error(`Chatwork post failed: ${response.status}`);
+  const out = await response.json().catch(() => ({}));
+  if (!out.ok) throw new Error(`Slack post failed: ${response.status} ${out.error ?? ''}`);
 }
 
 function demoData() {
@@ -319,7 +321,7 @@ async function main() {
   };
 
   await fs.writeFile(dataPath, JSON.stringify(payload, null, 2) + '\n');
-  await notifyChatwork(ranked, alerts);
+  await notifySlack(ranked, alerts);
   console.log(`Wrote ${ranked.length} repositories, ${alerts.length} alerts`);
 }
 
