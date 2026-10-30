@@ -11,7 +11,7 @@ GitHub上で急上昇しているAIツールを自動監視する、外部DB不�
 - 前回順位との差分、新規TOP20、急上昇を検出
 - 6時間ごとにGitHub Actionsで自動更新
 - GitHub Pagesへ自動デプロイ
-- 任意でChatworkへ急上昇通知
+- 任意でSlackへ急上昇通知
 
 ## 最短セットアップ
 
@@ -22,14 +22,13 @@ GitHub上で急上昇しているAIツールを自動監視する、外部DB不�
 
 GitHub API用の追加トークンは基本不要です。Workflowに自動発行される `GITHUB_TOKEN` を使います。
 
-## Chatwork通知を有効にする
+## Slack通知を有効にする
 
 Repositoryの `Settings > Secrets and variables > Actions` に以下を登録します。
 
-- `CHATWORK_API_TOKEN`: ChatworkのAPIトークン
-- `CHATWORK_ROOM_ID`: 投稿先ルームID
+- `SLACK_BOT_TOKEN`: Slack Botトークン（chat:write。投稿先チャンネルにBotを招待しておく）
 
-未設定ならChatwork送信だけスキップされます。
+投稿先は既定で #通知_情報収集（C0CC44W9T7X）。環境変数 `SLACK_CHANNEL_ID` で変えられます。未設定ならSlack送信だけスキップされます。
 
 ## 監視条件の変更
 
